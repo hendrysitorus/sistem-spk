@@ -1,0 +1,39 @@
+<?php
+
+
+===========================================================================
+===== Instalation Procedure VictoyStars ===================================
+===========================================================================
+1. Pastikan anda sudah mengintall Xammp7 pada perangkat anda ;
+2. Ekstrak atau copy file yang ada di VictoyStars.rar ke folder htdocs anda ;
+3. jalankan Xampp anda ;
+4. Buka http://localhost/phpmyadmin,
+5. Buat database baru dengan nama 'analisis_gaji_db', lalu buka/klik database 'analisis_gaji_db' di daftar database
+6. klik tab import lalu import file analisis_gaji_db.sql yang terdapat pada folder lalu klik 'Go' ;
+7. Buka http://localhost/VictoyStars (Catatan: VictoyStars merupakan nama folder webnya) ;
+8. switch(apabila terjadi erorr connection DB) {
+  case 1:
+    //buka file koneksi.php & pastikan nama database yg dipanggil sama
+    break;
+  case 2:
+    // untuk pengguna Xampp5 silahkan ubah code 'mysqli' menjadi 'mysql' pada semua code
+    break;
+  default:
+    // untuk pengguna Xammp7 silahkan langsung mengisi 'Username' & 'Password'
+ } 
+9. apabila terjadi error pada pemanggilan gambar silahkan modifikasi variable 'URL' pada file koneksi.php sesuai dengan
+ directory peyimpanan anda ;
+10. Selamat menikmati dan semoga berhasil ;
+
+===========================================================================
+===== User Autentication ==================================================
+===========================================================================
+======= Silahkan login dengan menggunakan : ===============================
+=========== username :  admin  ============================================
+=========== Password :  yuli   ============================================
+===========================================================================
+========== Copyright: Hendry Sitorus ======================================
+===========================================================================
+
+
+?>
